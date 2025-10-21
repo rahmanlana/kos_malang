@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-navbar {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 10;
+}
+
+.nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #fd7825;
+}
+
+/* MENU DI TENGAH */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.menu-link:hover {
+    color: #fd7825;
+}
+
+/* LOGIN DI KANAN */
+.login {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #fd7825;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.login:hover {
+    background: #fd7825;
+    color: #fff;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Logo */
+.footer-logo h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.footer-logo span {
+    color: #fd7825;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Menu */
+.footer-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-menu a:hover {
+    color: #fd7825;
+}
+
+/* Sosial Media */
+.footer-social {
+    display: flex;
+    gap: 18px;
+}
+
+.footer-social a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #fd7825;
+}
+
+/* Garis bawah kecil */
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #aaa;
+}
+
+/* Responsif */
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
