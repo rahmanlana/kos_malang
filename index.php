@@ -3,7 +3,7 @@ include 'includes/header.php'; ?>
 <main>
     <section>
         <h2>Daftar Kamar</h2>
-        <p>Kamar nyaman, Bersih, dan Strategis di Msalang.</p>
+        <p>Kamar nyaman, Bersih, dan Strategis di Malang.</p>
     </section>
 </main>
 <?php
